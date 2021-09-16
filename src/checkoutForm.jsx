@@ -37,7 +37,7 @@ export default function CheckoutForm() {
     }
   };
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form_payment" onSubmit={handleSubmit}>
       <CardElement />
       <button>Buy</button>
     </form>

@@ -7,7 +7,6 @@ import "firebase/firestore";
 const firebaseConfig = {
   apiKey: "AIzaSyD1p3ZlvLuVJFwUyt7_A1lFmml6ZlRPSmc",
   authDomain: "phone-login-6cd22.firebaseapp.com",
-  databaseURL: "https://phone-login-312c8.firebaseio.com",
   projectId: "phone-login-6cd22",
   storageBucket: "phone-login-6cd22.appspot.com",
   messagingSenderId: "901690509860",

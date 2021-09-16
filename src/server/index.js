@@ -9,6 +9,9 @@ const stripe = new Stripe(
   "sk_test_51JQAouFWmGEeX4od3qJjkwW2cdTVunEMWXE9PgKcNaz0sU2DvmGqLMHAIhuix7usRB1f6oSbE9ZfkD92GKRTmVdv001bFGHwHL"
 );
 
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+});
 app.use(cors({ origin: "http://localhost:3000" }));
 app.use(express.json());
 
